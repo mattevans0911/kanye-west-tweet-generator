@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://www.billboard.com/wp-content/uploads/2021/08/kanye-west-2015-billboard-1548-1629821002.jpg?w=942&h=623&crop=1");
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kanye-wrapper {
+  padding: 125px;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 60px;
+  margin-left: 105px;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33vh;
+  width: 40%;
+  font-size: 30px;
+  font-weight: bold;
+  flex-wrap: wrap;
+  margin-left: -45px;
+}
+
+.btn {
+  margin-left: 170px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+}
